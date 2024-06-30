@@ -230,6 +230,10 @@ audio::-webkit-media-controls-panel {
     text-align: center;
     margin: 39px;
   }
+
+  .two .image-container {
+    margin: 46px 20px 36px 20px;
+  }
 }
 
 /* #two {
@@ -314,8 +318,8 @@ audio::-webkit-media-controls-panel {
     padding-right: 25px;
     max-width: 700px;
     padding-left: 10px;
-    min-height: 300px;
-    font-size: 20px;
+    min-height: 200px;
+    font-size: 15px;
     display: flex;
     flex-direction: column;
     justify-content: space-between;

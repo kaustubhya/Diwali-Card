@@ -11,16 +11,19 @@
       href="https://fonts.googleapis.com/css2?family=Salsa&display=swap"
       rel="stylesheet"
     />
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Style+Script&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Style+Script&display=swap"
+      rel="stylesheet"
+    />
   </head>
   <body>
     <section class="hero-section">
       <div class="container1">
         <img src="./images/rakhi.png" class="rakhi" alt="rakhi" />
         <div class="greeting-message">
-          <p class="text">Hi,</p>
+          <p class="text">Hi, <span id="receiver"></span></p>
           <p class="text">You mean the world to me...</p>
           <p class="text">So this Diwali,</p>
           <p class="text">I made something for you!</p>
@@ -34,7 +37,7 @@
               alt="audio lines"
             />
             <audio
-              src="./images/Y2meta.app - WWE_ Roderick Strong - _Next Level_ (V2 _ Updated Intro) - Official NEW Theme Song 2017 (128 kbps).mp3"
+              src="/wholeness.mp3"
               alt="audio"
               class="audio"
               width="10"
@@ -132,8 +135,10 @@
 
         <p class="happy">Happy Diwali and,</p>
         <p class="thank-you">Thank You for Everything...</p>
-        <p class="ksd">Made with ❤️ by Kaustubhya Shukla</p>
+        <p class="ksd">Made with 💜 by <span id="sender"></span></p>
       </div>
     </section>
+
+    <script src="script.js"></script>
   </body>
 </html>
